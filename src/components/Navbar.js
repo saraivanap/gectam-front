@@ -12,7 +12,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/">
-              <img src="/static/imagens/logo.png" alt="logo" className="h-12" />
+              <img src="/imagens/logo.png" alt="logo" className="h-12" />
             </Link>
           </div>
 
@@ -43,16 +43,16 @@ const Navbar = () => {
           {/* Links de navegação */}
           <div className={`lg:flex ${isOpen ? 'block' : 'hidden'} w-full lg:w-auto`}>
             <div className="lg:flex items-center space-x-4">
-              <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100">
+              <Link to="/" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 transition duration-300 hover:text-gray-500">
                 Home
               </Link>
-              <Link to="/pesquisa" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100">
+              <Link to="/pesquisa" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 transition duration-300 hover:text-gray-500">
                 Linhas de Pesquisa
               </Link>
-              <Link to="/projetos" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100">
+              <Link to="/projetos" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 transition duration-300 hover:text-gray-500">
                 Projetos
               </Link>
-              <Link to="/contato" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100">
+              <Link to="/contato" className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 transition duration-300 hover:text-gray-500">
                 Contato
               </Link>
 
@@ -77,9 +77,9 @@ const Navbar = () => {
               <input
                 type="text"
                 placeholder="Procurar..."
-                className="px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                className="px-4 py-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-gray-400"
               />
-              <button className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-500">
+              <button className="px-4 py-2 bg-none text-black rounded-full transition duration-300 hover:text-gray-500">
               <FaSearch />
               </button>
             </form>

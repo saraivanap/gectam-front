@@ -5,7 +5,7 @@ const Home = () => {
     <div className="container mx-auto py-10 px-6">
       
       {/* Primeira Seção */}
-      <div className="text-center text-lg leading-relaxed mb-10 px-6">
+      <div className="text-center text-lg leading-relaxed mb-10 mt-10 px-6">
         <p>
         Bem-vindo ao nosso espaço dedicado à pesquisa técnico-científica na Amazônia!
 
@@ -18,13 +18,13 @@ const Home = () => {
 
         {/* Botões */}
         <div className="flex flex-col md:flex-row justify-center mt-6">
-          <a href="/publicacoes" className="bg-gray-800 text-white rounded-full mx-2 mb-2 md:mb-0 px-4 py-2">
+          <a href="/publicacoes" className="bg-green-800 text-white rounded-full mx-2 mb-2 md:mb-0 px-4 py-2 transition duration-300 hover:bg-gray-300">
             Publicações
           </a>
-          <a href="/lab" className="bg-gray-800 text-white rounded-full mx-2 mb-2 md:mb-0 px-4 py-2">
+          <a href="/lab" className="bg-green-800 text-white rounded-full mx-2 mb-2 md:mb-0 px-4 py-2 transition duration-300 hover:bg-gray-300">
             Laboratório de Computação Aplicada
           </a>
-          <a href="https://dgp.cnpq.br/dgp/espelhogrupo/2599301941111101" className="bg-gray-800 text-white rounded-full mx-2 px-4 py-2">
+          <a href="http://dgp.cnpq.br/dgp/espelhogrupo/802507" className="bg-green-800 text-white rounded-full mx-2 px-4 py-2 transition duration-300 hover:bg-gray-300">
             GPD / CNPq
           </a>
         </div>
@@ -78,7 +78,7 @@ const Home = () => {
       <div className="text-center">
         <a
           href="https://www.google.com/maps/place/PA-256+-+Nova+Conquista,+Paragominas+-+PA/@-2.989053,-47.407198,17z/data=!4m6!3m5!1s0x92ba2ce4420df23d:0xd3c0d4766aa97628!8m2!3d-2.9848064!4d-47.4543701!16s%2Fg%2F11x1nm7z3?hl=pt-BR&entry=ttu"
-          className="bg-gray-800 text-white rounded-full px-4 py-2"
+          className="bg-green-800 text-white rounded-full px-4 py-2 transition duration-300 hover:bg-gray-300"
         >
           Ver no Mapa
         </a>
