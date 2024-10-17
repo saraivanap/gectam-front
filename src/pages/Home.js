@@ -21,8 +21,8 @@ const Home = () => {
           <a href="/publicacoes" className="bg-green-800 text-white rounded-full mx-2 mb-2 md:mb-0 px-4 py-2 transition duration-300 hover:bg-gray-300">
             Publicações
           </a>
-          <a href="/lab" className="bg-green-800 text-white rounded-full mx-2 mb-2 md:mb-0 px-4 py-2 transition duration-300 hover:bg-gray-300">
-            Laboratório de Computação Aplicada
+          <a href="/projetos" className="bg-green-800 text-white rounded-full mx-2 mb-2 md:mb-0 px-4 py-2 transition duration-300 hover:bg-gray-300">
+            Projetos
           </a>
           <a href="http://dgp.cnpq.br/dgp/espelhogrupo/802507" className="bg-green-800 text-white rounded-full mx-2 px-4 py-2 transition duration-300 hover:bg-gray-300">
             GPD / CNPq

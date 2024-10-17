@@ -1,17 +1,12 @@
 import React from 'react';
-import Navbar from '../components/Navbar';  // Importando o Navbar
-import Footer from '../components/Footer';  // Importando o Footer
 
 const Projetos = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Navbar */}
-      <Navbar />
-
       {/* Conteúdo principal */}
       <main className="flex-grow">
         {/* Título com separador */}
-        <section className="container mx-auto px-4 py-8">
+        <section className="container mx-auto px-4 py-8 mt-20">
           <h2 className="text-3xl font-bold text-center mb-4">Projeto 1</h2>
           <hr className="border-gray-300 mb-8" />
 
@@ -32,9 +27,6 @@ const Projetos = () => {
           </a>
         </div>
       </main>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 };
