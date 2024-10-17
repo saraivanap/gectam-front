@@ -7,7 +7,13 @@ const Home = () => {
       {/* Primeira Seção */}
       <div className="text-center text-lg leading-relaxed mb-10 px-6">
         <p>
-          O Grupo de Pesquisa Núcleo de Pesquisas em Computação Aplicada da Universidade Federal Rural da Amazônia (UFRA) é uma entidade criada com o propósito de servir como um catalisador para o desenvolvimento de pesquisas em uma ampla gama de áreas da ciência da computação. Entre estas áreas estão a Inteligência Computacional, a Biologia Computacional, a Tecnologia, Inovação e Educação, as Redes de Computadores, a Informática Agrária, a Informática Aplicada à Saúde e a Computação Verde. Professores pesquisadores dos diversos campi da UFRA, juntamente com colaboradores externos de instituições parceiras, como UFPA, UFAM, IFPA, Prodepa, Uninassau, entre outras, unem esforços em prol do avanço do conhecimento nessas áreas de atuação. Essa colaboração multidisciplinar e interinstitucional fortalece o impacto e a relevância das pesquisas realizadas, contribuindo para o desenvolvimento científico e tecnológico não apenas da região amazônica, mas também do país como um todo.
+        Bem-vindo ao nosso espaço dedicado à pesquisa técnico-científica na Amazônia!
+
+        Neste site, você encontrará informações sobre as iniciativas voltadas para o desenvolvimento e a produção sustentável na região amazônica. Nossas pesquisas, com repercussão tanto nacional quanto internacional, são publicadas em periódicos, livros e capítulos de livros, e são apresentadas em eventos e conferências renomadas ao redor do mundo.
+
+        Contamos com a colaboração de pesquisadores de diversas regiões do Brasil, todos unidos em torno da missão de desenvolver estudos e projetos de alto impacto. Juntos, buscamos soluções inovadoras para os desafios enfrentados na Amazônia, promovendo um futuro mais sustentável e equitativo para esta rica e vital região.
+
+        Explore nosso site e descubra como estamos contribuindo para o avanço do conhecimento e a preservação do nosso ambiente!
         </p>
 
         {/* Botões */}
